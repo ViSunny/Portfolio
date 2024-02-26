@@ -1,0 +1,78 @@
+h1 {
+  color: blue;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+p {
+  color: darkgrey;
+  font-size: 20px;
+  text-align: left;
+}
+
+.h2 {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
+}
+.h3 {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
+}
+
+h4 {
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+}
+
+h6 {
+  color: black;
+  font-size: 20px;
+  text-align: left;
+}
+
+.image1 {
+  float: right; /* Float the image to the right */
+  width: 300px;
+  height: 300px;
+  margin-left: 20px; /* Add some margin to separate the image from the projects */
+  margin-right: 20px;
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+    background-color: rgba(231, 231, 217, 0.83);
+}
+
+/* Media query for iPhone */
+@media only screen and (max-width: 800px) {
+  .image1 {
+    display: block;
+
+    float:none; /* Float the image to the right */
+    margin-left: auto; /* Add some margin to separate the image from the projects */
+    margin-right: auto;
+  }
+  .h3 {
+  text-align: center;
+  }
+  .h2 {
+    text-align: center;
+  }
+  .aboutMe {
+    text-align: center;
+  }
+
+}
+
+/* Media query for iPad */
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  /* CSS styles for iPad */
+}
